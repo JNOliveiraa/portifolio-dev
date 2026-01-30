@@ -19,3 +19,32 @@ header {
   text-align: center;
   color: white;
 }
+
+.skills {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.skills li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 14px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #333;
+
+  font-size: 14px;
+  color: white;
+}
+
+.skill li img {
+  width: 18px;
+  height: 18px;
+}
